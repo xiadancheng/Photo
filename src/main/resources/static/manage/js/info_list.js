@@ -53,7 +53,7 @@ require.config({
 });
 
 require(['jquery','jqGrid','zDialog','jqtips','jqueryForm','chosen','jqValidate','daterangepicker'],function() {
-		var baseUrl = location.protocol  +"//"+location.host+"/Photo";
+		var baseUrl = location.protocol  +"//"+location.host;
 		var LocString = String(window.document.location.href);  
 		function getQueryStr(str) { 
 		        var rs = new RegExp("(^|)" + str + "=([^&]*)(&|$)", "gi").exec(LocString), tmp; 

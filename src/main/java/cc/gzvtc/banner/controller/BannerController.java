@@ -51,6 +51,8 @@ public class BannerController {
 		returnResult.setStatus(ReturnCodeType.FAILURE);
 		try {
 
+			String realPath = request.getServletContext().getRealPath("/");
+			System.out.println(realPath);
 			Map<String, String> map = OperationFileUtil.multiFileUpload(request,
 					request.getServletContext().getRealPath("/") + "uploads/banner/");
 			String filePath = "";
