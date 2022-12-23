@@ -64,7 +64,7 @@ public class PhotographerController {
 			Integer levelId, Integer spotsId) {
 		returnResult.setStatus(ReturnCodeType.FAILURE);
 		try {
-
+			System.out.println("测试捕捉路径："+request.getServletContext().getRealPath("/"));
 			Map<String, String> map = OperationFileUtil.multiFileUpload(request,
 					request.getServletContext().getRealPath("/") + "uploads/photographer/");
 			String filePath = "";

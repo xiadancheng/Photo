@@ -56,7 +56,7 @@ public class WorksController {
 	public ReturnResult addWorks(TWorks works, HttpServletRequest request) {
 		returnResult.setStatus(ReturnCodeType.FAILURE);
 		try {
-
+			System.out.println("测试12：06："+request.getServletContext().getRealPath("/"));
 			Map<String, String> map = OperationFileUtil.multiFileUpload(request,
 					request.getServletContext().getRealPath("/") + "uploads/images/");
 			

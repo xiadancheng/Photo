@@ -1,0 +1,82 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid",
+      "type": "cc.gzvtc.config.druid.DruidConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.connection-properties",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.filters",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.initial-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.max-wait",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.min-evictable-idle-time-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.pool-prepared-statements",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.time-between-eviction-runs-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cc.gzvtc.config.druid.DruidConfig",
+      "name": "spring.druid.validation-query",
+      "type": "java.lang.String"
+    }
+  ]
+}
